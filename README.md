@@ -1,3 +1,4 @@
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 # Projeto SIN393 - Visão Computacional
 
 ## Tecnologias Utilizadas
@@ -8,8 +9,8 @@ As seguintes tecnologias foram empregadas no projeto:
 - **Conda**: Gerenciador de pacotes e ambientes virtuais.
 - **PyTorch**: Framework para construção e treinamento de modelos de redes neurais.
 - **Matplotlib**: Biblioteca para criação de gráficos e visualização de dados.
+- **NumPy**: Biblioteca para manipulação de arrays e operações numéricas de alto desempenho.
 - **Scikit-Learn**: Ferramentas para análise de dados e aprendizado de máquina.
-- **TQDM**: Progress bar para acompanhamento de execuções.
 - **Jupyter Notebook**: Ambiente para execução interativa de códigos e visualização de resultados.
 
 ## Artigo Científico
@@ -20,7 +21,7 @@ Um artigo detalhando os experimentos realizados foi elaborado e está disponíve
 
 ## Vídeo Explicativo
 
-Para complementar a documentação, foi criado um vídeo explicativo do trabalho, disponível neste **[link](https://www.youtube.com/watch?v=mVWqjKUZZsI)**. O vídeo aborda as etapas principais do projeto e os resultados obtidos.
+Para complementar a documentação, foi criado um vídeo explicativo do trabalho, disponível neste **[Link](https://www.youtube.com/watch?v=mVWqjKUZZsI)**. O vídeo aborda as etapas principais do projeto e os resultados obtidos.
 
 ---
 
@@ -45,7 +46,21 @@ O objetivo principal é explorar e analisar as capacidades desses modelos no con
 
 ## Replicação dos Experimentos
 
-### 1. Download do Banco de Dados
+
+
+## Replicação dos Experimentos
+
+### 1. Baixe e Instale o Anaconda
+
+Certifique-se de que o Anaconda está instalado em sua máquina. Caso não tenha, siga os passos abaixo:
+
+- Acesse o site oficial do Anaconda: **[Anaconda Download](https://www.anaconda.com/products/distribution)**.
+- Baixe a versão compatível com o seu sistema operacional.
+- Siga as instruções do instalador para concluir a instalação.
+
+Após instalado, abra o **Anaconda Prompt** pesquisando "Anaconda Prompt" no menu iniciar (Windows) ou via terminal no macOS/Linux.
+
+### 2. Download do Banco de Dados
 
 Banco de dados utilizado: **[USK-COFFEE](https://comvis.unsyiah.ac.id/usk-coffee/)**
 
@@ -55,7 +70,7 @@ Para baixar, siga os passos abaixo:
 - Desça a página até encontrar o botão **DATA AND CODE**.
 - Preencha o formulário e realize o download do banco de dados.
 
-### 2. Criação de Ambiente Virtual (Opcional, mas Recomendado)
+### 3. Criação de Ambiente Virtual (Opcional, mas Recomendado)
 
 Para garantir um ambiente isolado, recomenda-se criar um ambiente virtual utilizando o Conda:
 
@@ -69,7 +84,7 @@ Ative o ambiente virtual recém-criado:
 conda activate nome_do_seu_ambiente
 ```
 
-### 3. Instalação do Jupyter Notebook
+### 4. Instalação do Jupyter Notebook
 
 Instale o Jupyter Notebook no ambiente virtual:
 
@@ -77,7 +92,7 @@ Instale o Jupyter Notebook no ambiente virtual:
 conda install jupyter
 ```
 
-### 4. Instalação das Bibliotecas Necessárias
+### 5. Instalação das Bibliotecas Necessárias
 
 Utilize o comando abaixo para instalar as dependências:
 
@@ -91,7 +106,7 @@ Certifique-se de que tudo está atualizado:
 conda update --all
 ```
 
-### 5. Clonagem do Repositório
+### 6. Clonagem do Repositório
 
 Antes de clonar o repositório, certifique-se de que o **Git** está instalado em sua máquina. Caso não tenha o Git, siga as instruções abaixo:
 
@@ -114,11 +129,11 @@ Clone o repositório com o comando:
 git clone https://github.com/marcus-vreis/ComputerVision-SIN393-CNN-CoffeeBean.git
 ```
 
-### 6. Organização do Banco de Dados
+### 7. Organização do Banco de Dados
 
 Coloque o banco de dados na pasta do repositório clonado. Certifique-se de que os arquivos do dataset estão no mesmo diretório dos notebooks `.ipynb`.
 
-### 7. Execução do Jupyter Notebook
+### 8. Execução do Jupyter Notebook
 
 Inicie o Jupyter Notebook:
 
@@ -128,15 +143,15 @@ jupyter notebook
 
 Isso abrirá uma nova janela ou guia no navegador padrão, onde você poderá navegar até o diretório do projeto e abrir os notebooks.
 
-### 8. Preparação do Dataset
+### 9. Preparação do Dataset
 
 Execute o arquivo `Converte_Dataset.py` para ajustar o dataset. O script remove classes desnecessárias, mantendo apenas as duas classes utilizadas no projeto.
 
-### 9. Execução dos Modelos
+### 10. Execução dos Modelos
 
 Após a preparação do dataset, execute os notebooks dos modelos (`AlexNet_Model.ipynb`, `Resnet18_Model.ipynb` e `Resnet50_Model.ipynb`). Não são necessárias alterações adicionais no código.
 
-### 10. Estrutura de Saída
+### 11. Estrutura de Saída
 
 - Os **pesos dos modelos** serão salvos em uma pasta chamada `modelos`.
 - Os **resultados e gráficos** serão armazenados em uma pasta chamada `Gráficos`.
