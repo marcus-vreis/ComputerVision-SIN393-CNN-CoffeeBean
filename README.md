@@ -44,9 +44,6 @@ O objetivo principal é explorar e analisar as capacidades desses modelos no con
 
 ---
 
-## Replicação dos Experimentos
-
-
 
 ## Replicação dos Experimentos
 
