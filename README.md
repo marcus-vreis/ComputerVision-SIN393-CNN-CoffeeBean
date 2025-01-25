@@ -91,10 +91,28 @@ conda install jupyter
 
 ### 5. Instalação das Bibliotecas Necessárias
 
-Utilize o comando abaixo para instalar as dependências:
+#### Caso for usar a GPU:
 
 ```bash
-conda install numpy matplotlib scikit-learn tqdm pytorch==2.3.0 torchvision==0.15.0 torchaudio==2.3.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+```
+
+#### Caso for usar a CPU:
+
+```bash
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+```
+
+Além disso, instale as outras bibliotecas necessárias:
+
+```bash
+conda install numpy matplotlib scikit-learn tqdm
+```
+
+Certifique-se de que tudo está atualizado:
+
+```bash
+conda update --all
 ```
 
 
