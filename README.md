@@ -37,7 +37,7 @@ O objetivo principal é explorar e analisar as capacidades desses modelos no con
 
 ## Arquivos
 
-1. **`Converte_Dataset.py`**: Script para manipulação e ajuste do banco de dados utilizado.
+1. **`Converte_Dataset.ipynb`**: Script para manipulação e ajuste do banco de dados utilizado.
 2. **`AlexNet_Model.ipynb`**: Notebook para execução do modelo de rede neural AlexNet.
 3. **`Resnet18_Model.ipynb`**: Notebook para execução do modelo de rede neural ResNet18.
 4. **`Resnet50_Model.ipynb`**: Notebook para execução do modelo de rede neural ResNet50.
@@ -142,7 +142,7 @@ Isso abrirá uma nova janela ou guia no navegador padrão, onde você poderá na
 
 ### 9. Preparação do Dataset
 
-Execute o arquivo `Converte_Dataset.py` para ajustar o dataset. O script remove classes desnecessárias, mantendo apenas as duas classes utilizadas no projeto.
+Execute o arquivo `Converte_Dataset.ipynb` para ajustar o dataset. O script remove classes desnecessárias, mantendo apenas as duas classes utilizadas no projeto.
 
 ### 10. Execução dos Modelos
 
