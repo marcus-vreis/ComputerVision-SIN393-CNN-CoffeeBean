@@ -94,14 +94,10 @@ conda install jupyter
 Utilize o comando abaixo para instalar as dependências:
 
 ```bash
-conda install numpy matplotlib scikit-learn tqdm pytorch torchvision -c pytorch
+conda install numpy matplotlib scikit-learn tqdm pytorch==2.3.0 torchvision==0.15.0 torchaudio==2.3.0 pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 
-Certifique-se de que tudo está atualizado:
 
-```bash
-conda update --all
-```
 
 ### 6. Clonagem do Repositório
 
