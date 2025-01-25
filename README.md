@@ -157,8 +157,8 @@ Após a preparação do dataset, execute os notebooks dos modelos (`AlexNet_Mode
 
 ## Participantes
 
-- [Brenno Alves Silva](https://github.com/BrennoA1ves)
-- [Marcus Vinicius Diniz dos Reis](https://github.com/marcus-vreis)
+- [Brenno Alves Silva - 7000](https://github.com/BrennoA1ves)
+- [Marcus Vinicius Diniz dos Reis - 8151](https://github.com/marcus-vreis)
 ---
 
 ## Agradecimentos
